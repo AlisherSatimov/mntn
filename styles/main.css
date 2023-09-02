@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background: #0b1d26;
+    box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 4800px;
+    background-image: url(../images/mountain_beyond.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+}
+
+.wrapper {
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 58px 80px 0px;
+}
+
+.nav li,
+.account_button {
+    color: #fff;
+    font-family: gilroy-bold;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 375;
+    line-height: normal;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.account {
+    display: flex;
+    gap: 8px;
+}
+
+.account_button {
+    margin-top: 3px;
+}
+
+.follow_text,
+.start,
+.zero_one,
+.zero_two,
+.zero_three {
+    color: #fff;
+    font-family: gilroy-bold;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.follow_text,
+.twit_logo,
+.insta_logo,
+.start,
+.zero_one,
+.zero_two,
+.zero_three {
+    position: fixed;
+}
+
+.follow_text {
+    top: 405px;
+    left: 50px;
+    transform: rotate(90deg);
+}
+
+.twit_logo {
+    top: 535px;
+    left: 80px;
+}
+
+.insta_logo {
+    top: 486px;
+    left: 80px;
+}
+
+.start {
+    top: 358px;
+    right: 120px;
+}
+
+.zero_one {
+    top: 422px;
+    right: 120px;
+}
+
+.zero_two {
+    top: 488px;
+    right: 120px;
+}
+
+.zero_three {
+    top: 552px;
+    right: 120px;
+}
+
+.slider {
+    width: 4px;
+    height: 252px;
+    flex-shrink: 0;
+    background-color: #fff;
+    opacity: 0.5;
+    position: fixed;
+    top: 340px;
+    right: 85px;
+}
+.slider_scroll {
+    width: 4px;
+    height: 63px;
+    background-color: #fff;
+    position: fixed;
+    top: 340px;
+    right: 85px;
+}
+
+.heading {
+    height: 1200px;
+    position: relative;
+}
+
+.equpment_title {
+    color: #fbd784;
+    font-family: gilroy-bold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.hor_row {
+    width: 72px;
+    height: 2px;
+    background-color: #fbd784;
+}
+
+.hiking_guide {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.be_prepared {
+    color: #fff;
+    font-family: Chronicle Display;
+    font-size: 94px;
+    font-style: normal;
+    font-weight: 375;
+    line-height: 100px;
+    text-transform: capitalize;
+}
+
+.show_content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.show_more {
+    color: #fff;
+    font-family: gilroy-bold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.shadow_bg {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0b1d26 61.38%);
+}
+
+.container {
+    width: 1462px;
+    height: 720px;
+    padding-top: 450px;
+    margin: 0 auto;
+}
+
+.get_started {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 500px;
+}
+
+.information_text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+    width: 632px;
+    height: 439px;
+    margin-left: 150px;
+    top: 55px;
+}
+
+.hiker_lavel {
+    color: #fff;
+    font-family: Chronicle Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 375;
+    line-height: normal;
+    word-spacing: 10px;
+}
+
+.get_started p {
+    color: #fff;
+    font-family: gilroy-bold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.read_more a {
+    color: #fbd784;
+}
+
+.img_get_started {
+    margin-top: -90px;
+}
+
+.equpmen_number {
+    position: absolute;
+    color: #fff;
+    font-family: gilroy-bold;
+    font-size: 240px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 240px; /* 100% */
+    opacity: 0.1;
+    top: -90px;
+    left: -150px;
+}
+
+.space {
+    width: 100%;
+    height: 170px;
+}
+
+.footer_text {
+    color: #fff;
+    font-family: gilroy-bold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+}
+
+.copyright {
+    color: #fff;
+    font-family: gilroy-bold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 32px;
+    opacity: 0.5;
+    margin-top: 100px;
+}
+
+.footer_logo,
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more {
+    color: #fbd784;
+    font-family: gilroy-bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+}
+
+.blogs li,
+.mntn li {
+    color: #fff;
+    font-family: gilroy-bold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 177.778% */
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mntn {
+    margin-left: 210px;
+}
